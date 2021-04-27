@@ -4,7 +4,7 @@ import { initReactI18next } from "react-i18next";
 // (tip move them in a JSON file and import them)
 var resources = {};
 
-fetch("https://sqlvajn5qbt7ya7yq4.blob.core.windows.net/feedback-file/en-US.json")
+fetch("https://{JSOn file URL}/si-LK.json")
     .then(data => data.json())
     .then(data => {
         resources["en-US"] = data
@@ -23,7 +23,7 @@ fetch("https://sqlvajn5qbt7ya7yq4.blob.core.windows.net/feedback-file/en-US.json
 
     })
 
-fetch("https://sqlvajn5qbt7ya7yq4.blob.core.windows.net/feedback-file/si-LK.json")
+fetch("https://{JSOn file URL}/si-LK.json")
     .then(data => data.json())
     .then(data => {
         resources["si-LK"] = data
