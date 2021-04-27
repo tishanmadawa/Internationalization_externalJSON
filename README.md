@@ -1,0 +1,2 @@
+# Internationalization_externalJSON
+Internationalization using external JSON file
